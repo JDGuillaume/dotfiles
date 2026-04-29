@@ -16,3 +16,7 @@ export EZA_CONFIG_DIR="$HOME/.config/eza"
 # - Command-Line Fuzzy Finder
 
 source <(fzf --zsh) # key bindings, fuzzy completion
+
+# starship (https://starship.rs/)
+# - Cross-Shell Prompt
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"

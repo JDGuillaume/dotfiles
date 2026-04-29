@@ -8,5 +8,11 @@ source $ZSH/oh-my-zsh.sh
 # Set Neovim as the default editor.
 export EDITOR='nvim'
 
-# Eza
+# eza (https://github.com/eza-community/eza)
+# - Replacement for `ls`
 export EZA_CONFIG_DIR="$HOME/.config/eza"
+
+# fzf (https://github.com/junegunn/fzf)
+# - Command-Line Fuzzy Finder
+
+source <(fzf --zsh) # key bindings, fuzzy completion

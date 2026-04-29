@@ -7,3 +7,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Set Neovim as the default editor.
 export EDITOR='nvim'
+
+# Eza
+export EZA_CONFIG_DIR="$HOME/.config/eza"

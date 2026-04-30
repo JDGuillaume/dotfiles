@@ -22,3 +22,6 @@ source <(fzf --zsh) # key bindings, fuzzy completion
 
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
+
+# Personal Aliases
+alias omb="brew update && brew upgrade && brew doctor && brew cleanup && omz update"

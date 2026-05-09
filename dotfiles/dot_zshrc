@@ -12,6 +12,10 @@ export EDITOR='nvim'
 # - Replacement for `ls`
 export EZA_CONFIG_DIR="$HOME/.config/eza"
 
+# fnm (https://github.com/Schniz/fnm)
+# - Fast Node Manager
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 # fzf (https://github.com/junegunn/fzf)
 # - Command-Line Fuzzy Finder
 

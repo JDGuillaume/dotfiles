@@ -1,0 +1,31 @@
+[packages.homebrew]
+    casks = [
+        "aerospace",
+        "anki",
+        "basecamp",
+        "dropbox",
+        "font-jetbrains-mono",
+        "font-jetbrains-mono-nerd-font",
+        "pocket-casts",
+        "polypane",
+        "zoom"
+    ]
+    
+    formulate = [
+        "bat",
+        "btop",
+        "chezmoi",
+        "eza",
+        "fastfetch",
+        "fzf",
+        "gh",
+        "go",
+        "jq",
+        "lua",
+        "neovim",
+        "ripgrep",
+        "starship",
+        "tmux",
+        "tree-sitter",
+        "uv"
+    ]

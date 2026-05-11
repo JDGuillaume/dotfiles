@@ -158,8 +158,10 @@ later(function() add({ 'https://github.com/rafamadriz/friendly-snippets' }) end)
 now_if_args(function()
    add({ 'https://github.com/mason-org/mason.nvim' })
    add({ 'https://github.com/mason-org/mason-lspconfig.nvim' })
+   add({ 'https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim'})
    require('mason').setup()
-   require('mason-lspconfig').setup({
+   require('mason-lspconfig').setup()
+   require("mason-tool-installer").setup({
      ensure_installed = {
        "astro",
        "bashls",

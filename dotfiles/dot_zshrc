@@ -29,3 +29,11 @@ eval "$(starship init zsh)"
 
 # Personal Aliases
 alias omb="brew update && brew upgrade && brew doctor && brew cleanup && omz update"
+
+# pnpm
+export PNPM_HOME="/Users/jdguillaume/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+# pnpm end
